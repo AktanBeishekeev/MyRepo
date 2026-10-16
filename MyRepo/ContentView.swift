@@ -15,6 +15,17 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Aktan Beishekeev")
+            
+            Button {
+                
+            } label: {
+                Text("Click me")
+                    .foregroundStyle(Color(.white))
+                    .padding(10)
+                    .padding(.horizontal, 20)
+                    .background(.black)
+                    .cornerRadius(10)
+            }
         }
         .padding()
     }
