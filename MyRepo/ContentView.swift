@@ -9,21 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        VStack (spacing: 20){
             Image(systemName: "heart.fill")
                 .font(.largeTitle)
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Aktan Beishekeev")
+                .foregroundStyle(.red)
             
             Button {
                 
             } label: {
-                Text("Click me")
+                Text("Love me")
                     .foregroundStyle(Color(.white))
                     .padding(10)
                     .padding(.horizontal, 20)
-                    .background(.black)
+                    .background(.red)
                     .cornerRadius(10)
             }
         }
