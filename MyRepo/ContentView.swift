@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var loveCount: Int = 0
     var body: some View {
         VStack (spacing: 20){
             Image(systemName: "heart.fill")
@@ -15,8 +16,10 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.red)
             
+            Text("\(loveCount)")
+                .font(.headline)
             Button {
-                
+                loveCount += 1
             } label: {
                 Text("Love me")
                     .foregroundStyle(Color(.white))
