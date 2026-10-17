@@ -9,7 +9,9 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text("Second View")
+        Image(systemName: "star.fill")
+            .font(.largeTitle)
+            .foregroundStyle(Color.yellow)
     }
 }
 
