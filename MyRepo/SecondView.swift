@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SecondView: View {
+    @State var text: String = ""
     var body: some View {
         Image(systemName: "star.fill")
             .font(.largeTitle)

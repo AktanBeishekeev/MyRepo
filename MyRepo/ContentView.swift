@@ -17,7 +17,7 @@ struct ContentView: View {
                 .foregroundStyle(.red)
             
             Text("\(loveCount)")
-                .font(.headline)
+                .font(.title)
             Button {
                 loveCount += 1
             } label: {
