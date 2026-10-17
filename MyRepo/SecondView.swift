@@ -10,9 +10,14 @@ import SwiftUI
 struct SecondView: View {
     @State var text: String = ""
     var body: some View {
-        Image(systemName: "star.fill")
-            .font(.largeTitle)
-            .foregroundStyle(Color.yellow)
+        VStack (spacing: 20){
+            Image(systemName: "star.fill")
+                .font(.system(size: 100))
+                .foregroundStyle(Color.yellow)
+            Text("Be the best")
+                .font(.headline)
+                .foregroundStyle(Color.yellow)
+        }
     }
 }
 
