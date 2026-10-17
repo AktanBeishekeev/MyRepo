@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack (spacing: 20){
             Image(systemName: "heart.fill")
-                .font(.largeTitle)
+                .font(.system(size: 100))
                 .imageScale(.large)
                 .foregroundStyle(.red)
             
