@@ -18,7 +18,7 @@ struct SecondView: View {
                     .font(.system(size: 100))
                     .foregroundStyle(Color.yellow)
             }
-            Text("Be the best")
+            Text("Be the star")
                 .font(.headline)
                 .foregroundStyle(Color.yellow)
             Text("\(count)")
